@@ -1,3 +1,0 @@
-*.js linguist-language=Javascript
-*.lisp linguist-language=Lisp
-*.hs linguist-language=Haskell

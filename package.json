@@ -9,6 +9,8 @@
   "author": "Calamitizer",
   "license": "MIT",
   "dependencies": {
-    "dogescript": "^2.3.0"
+    "dogescript": "^2.3.0",
+    "then-request": "^2.2.0",
+    "yamljs": "^0.2.8"
   }
 }
