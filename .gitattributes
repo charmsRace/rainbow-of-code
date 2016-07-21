@@ -1,4 +1,3 @@
-* linguist-vendored
 *.abap linguist-language=ABAP
 *.asc linguist-language=AGS[:space:]Script
 *.ampl linguist-language=AMPL
@@ -409,3 +408,4 @@
 *.rst linguist-language=reStructuredText
 *.wisp linguist-language=wisp
 *.prg linguist-language=xBase
+* linguist-vendored
