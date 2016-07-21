@@ -22,10 +22,16 @@ such parse much library
 wow extensions
 
 such write much extensions
+    very attributes is new Array
+    plz attributes.push with 'fetch.djs linguist-generated=true'
 	much very language in extensions
-    	very name is 'spectrum/' + language + extensions[language]
+    	very extension is extensions[language]
+        very declaration is '*' + extension + ' linguist-language=' + 'Python'
+    	plz attributes.push with declaration
+    	very file is 'spectrum/' + language + extension
     	plz fs.writeFile with name, '\n\n', 'utf8'
     wow
+    plz fs.writefile with '.gitattributes', attributes.join('\n'), 'utf8'
 wow
 
 plz fetch with &
