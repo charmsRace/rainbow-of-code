@@ -23,15 +23,18 @@ wow extensions
 
 such write much extensions
     very attributes is new Array
-    plz attributes.push with 'fetch.djs linguist-generated=true'
+    plz attributes.push with 'fetch.djs linguist-vendored'
+    very oldspace is / /g
+    very newspace is '[:space:]'
 	much very language in extensions
     	very extension is extensions[language]
-        very declaration is '*' + extension + ' linguist-language=' + 'Python'
+    	very attr is plz language.replace with oldspace newspace
+        very declaration is '*' + extension + ' linguist-language="' + attr + '"'
     	plz attributes.push with declaration
-    	very file is 'spectrum/' + language + extension
+    	very name is 'spectrum/' + language + extension
     	plz fs.writeFile with name, '\n\n', 'utf8'
     wow
-    plz fs.writefile with '.gitattributes', attributes.join('\n'), 'utf8'
+    plz fs.writeFile with '.gitattributes', attributes.join('\n'), 'utf8'
 wow
 
 plz fetch with &
