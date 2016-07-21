@@ -1,4 +1,4 @@
-fetch.djs linguist-vendored
+* linguist-vendored
 *.abap linguist-language=ABAP
 *.asc linguist-language=AGS[:space:]Script
 *.ampl linguist-language=AMPL
