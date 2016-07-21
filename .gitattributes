@@ -1,4 +1,9 @@
 fetch.djs linguist-vendored
+.gitattributes linguist-vendored
+.gitignore linguist-vendored
+LICENSE linguist-vendored
+README.md linguist-vendored
+package.json linguist-vendored
 *.abap linguist-language=ABAP
 *.asc linguist-language=AGS[:space:]Script
 *.ampl linguist-language=AMPL
