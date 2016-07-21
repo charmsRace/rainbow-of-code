@@ -1,2 +1,1 @@
-
-
+Cap'n Proto

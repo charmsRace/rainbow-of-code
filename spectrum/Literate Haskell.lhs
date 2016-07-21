@@ -1,2 +1,1 @@
-
-
+Literate Haskell

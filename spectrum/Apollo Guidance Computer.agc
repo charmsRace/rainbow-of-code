@@ -1,2 +1,1 @@
-
-
+Apollo Guidance Computer

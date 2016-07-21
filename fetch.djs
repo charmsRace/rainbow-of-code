@@ -32,7 +32,7 @@ such write much extensions
         very declaration is '*' + extension + ' linguist-language=' + attr
     	plz attributes.push with declaration
     	very name is 'spectrum/' + language + extension
-    	plz fs.writeFile with name, '\n\n', 'utf8'
+    	plz fs.writeFile with name language 'utf8'
     wow
     plz fs.writeFile with '.gitattributes', attributes.join('\n'), 'utf8'
 wow

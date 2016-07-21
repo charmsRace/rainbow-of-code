@@ -1,2 +1,1 @@
-
-
+Game Maker Language
