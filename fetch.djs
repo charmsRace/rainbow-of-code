@@ -29,7 +29,7 @@ such write much extensions
 	much very language in extensions
     	very extension is extensions[language]
     	very attr is plz language.replace with oldspace newspace
-        very declaration is '*' + extension + ' linguist-language="' + attr + '"'
+        very declaration is '*' + extension + ' linguist-language=' + attr
     	plz attributes.push with declaration
     	very name is 'spectrum/' + language + extension
     	plz fs.writeFile with name, '\n\n', 'utf8'
