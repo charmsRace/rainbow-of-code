@@ -9,8 +9,3 @@ package.json linguist-vendored
 *.ampl linguist-language=AMPL
 *.g4 linguist-language=ANTLR
 *.apib linguist-language=API[:space:]Blueprint
-*.apl linguist-language=APL
-*.asp linguist-language=ASP
-*.dats linguist-language=ATS
-*.as linguist-language=ActionScript
-*.adb linguist-language=Ada
