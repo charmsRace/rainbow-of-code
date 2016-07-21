@@ -1,1 +1,0 @@
-Grammatical Framework

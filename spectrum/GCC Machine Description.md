@@ -1,1 +1,0 @@
-GCC Machine Description

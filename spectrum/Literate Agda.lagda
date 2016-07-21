@@ -1,1 +1,0 @@
-Literate Agda

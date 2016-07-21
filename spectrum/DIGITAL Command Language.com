@@ -1,1 +1,0 @@
-DIGITAL Command Language
