@@ -1,1 +1,7 @@
-# rainbow-of-code
+# Rainbow of Code
+
+This goal of this project was to crawl [Linguist](https://github.com/github/linguist)'s [master language list](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) and generate trash files with the right filetypes and .gitattribute declarations that they would be recognized as being written in certain languages. This was to manipulate the Language Stats Bar for the repository, which displays a visual representation of how much of the repo is written in what language. I wanted to display equal byteshare for each language with a designated hex color. Then, I was going to pad the files with enough garbage data that the filesizes became large enough that they could differ slightly and still be visually identical, allowing me to sort by hue.
+
+Well, this actually worked [perfectly well](https://api.github.com/repos/calamitizer/rainbow-of-code/languages) for fooling GitHub's language API, and we get an almost perfect spread of languages (with some minor debugging of duplicates to do). However, it turns out that the language bar *itself* has a hard-coded maximum; if your repo's bar would display more than 7 languages, those past the first 6 (sorted by descending byteshare) are grouped together as "Other". A tamer rainbow working within that limitation has [already been done](https://github.com/ozh/rainbow), so sadly I declare this project dead.
+
+Also, Dogescript is a *really* bad language.
